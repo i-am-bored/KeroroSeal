@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>케로로 띠부씰</title>
+        <style>
+            @FONT-FACE {
+                font-family: 'puradak';
+                src:url('Puradak Gentle Gothic.ttf')
+            }
+            p {
+                color: white;
+            }
+            html,
+            body {
+            background: #26262b;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 1.15;
+            }
+
+            .wrapper-buttons {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            }
+
+            .white-button,
+            .blue-button {
+            display: inline-block;
+            font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 19pt;
+            border-radius: 3px;
+            cursor: pointer;
+            height: 60px;
+            width: 290px;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .blue-button {
+            background-color: #7289da;
+            border: 2px solid #7289da;
+            color: #fff;
+            }
+
+            .white-button {
+            background-color: #fff;
+            border: 2px solid #fff;
+            color: #000;
+            }
+
+            .wrapper-nitro-buttons {
+            margin: 0 auto !important;
+            width: 60%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: block;
+            }
+
+            .black-nitro-button,
+            .green-nitro-button {
+            display: inline-block;
+            font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+            font-weight: 400;
+            font-size: 19pt;
+            border-radius: 3px;
+            cursor: pointer;
+            height: 60px;
+            width: 290px;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .green-nitro-button {
+            background-color: #2a4cc7;
+            border: 2px solid #2e53d8;
+            color: #fff;
+            }
+ 
+
+        </style> 
+    </head>
+    <body>
+        <br>
+        <p style='font-family: puradak;font-size: 80px;'>케로로</p>
+        <div class="wrapper-buttons">
+            <button class="white-button" onclick="location.href='/bought'">빵 등록하기</button>
+            <br><br><br><br>
+            <button class="blue-button" onclick="location.href='/registerseal'">띠부씰 등록하기</button>
+        </div>
+        <div class="wrapper-nitro-buttons" style="padding-top: 0px;">
+            <br><br><br>
+            <button class="green-nitro-button" onclick="location.href='/mykeroro'">내 케로로</button>
+        </div>
+    </body>
+</html>
